@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">小枫Info</string>
+    <string name="title_activity_login">登 录</string>
+    <string name="accessibility_description">打开上方开关,启动后台自动抢红包服务（支持QQ，微信）！有疑问请联系作者：924114103</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">账号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">必填</string>
+    <string name="error_invalid_password">密码错误或者过于简单</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">必填</string>
+    <string name="permission_rationale">"需要访问您的联系人."
+    </string>
+</resources>

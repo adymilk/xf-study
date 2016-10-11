@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66cc99</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="gray">#ccc</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="HotTheme">#EE5152</color>
+    <color name="coldTheme">#3f51b5</color>
+    <color name="wd_common">#ECEAEA</color>
+    <color name="title_shequ">#499DF2</color>
+    <color name="title_runoob">#80BE29</color>
+    <color name="titile_kugou">#2CA1F8</color>
+    <color name="xfhlp">#337AB7</color>
+</resources>

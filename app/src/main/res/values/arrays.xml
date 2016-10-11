@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="titles">
+        <item>Android Studio 2.0发布！</item>
+        <item>这些小工具让你的Android开发更高效</item>
+        <item>黑客之路第一期</item>
+        <item>6个月学会任何一种外语 </item>
+        <item>做汇报，要像TED一样演讲</item>
+        <item>零基础学会网页设计</item>
+        <item>覆盖应用开发核心技能</item>
+        <item>有时候就是缺少一点任性</item>
+        <item>世界这么大,谁不想去看看</item>
+        <item>培养一个能赚钱的爱好</item>
+        <item>三个月学会iOS构建</item>
+        <item>一种专业有效的职业培训方案</item>
+        <item>互联网时代的时间管理法则</item>
+        <item>编程高手是如何养成的</item>
+        <item>C/C++黑客编程项目实战课程</item>
+        <item>黑客之路第一期</item>
+        <item>6个月学会任何一种外语 </item>
+        <item>做汇报，要像TED一样演讲</item>
+        <item>零基础学会网页设计</item>
+        <item>覆盖应用开发核心技能</item>
+        <item>有时候就是缺少一点任性</item>
+        <item>世界这么大,谁不想去看看</item>
+        <item>培养一个能赚钱的爱好</item>
+        <item>三个月学会iOS构建</item>
+        <item>一种专业有效的职业培训方案</item>
+        <item>互联网时代的时间管理法则</item>
+        <item>做汇报，要像TED一样演讲</item>
+        <item>零基础学会网页设计</item>
+        <item>覆盖应用开发核心技能</item>
+        <item>有时候就是缺少一点任性</item>
+        <item>世界这么大,谁不想去看看</item>
+        <item>培养一个能赚钱的爱好</item>
+        <item>三个月学会iOS构建</item>
+        <item>编程高手是如何养成的</item>
+        <item>C/C++黑客编程项目实战课程</item>
+        <item>黑客之路第一期</item>
+        <item>6个月学会任何一种外语 </item>
+        <item>做汇报，要像TED一样演讲</item>
+        <item>覆盖应用开发核心技能</item>
+        <item>有时候就是缺少一点任性</item>
+        <item>世界这么大,谁不想去看看</item>
+        <item>培养一个能赚钱的爱好</item>
+        <item>三个月学会iOS构建</item>
+        <item>一种专业有效的职业培训方案</item>
+    </array>
+
+
+    <integer-array name="icons">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:id="@+id/qqchat_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/HotTheme"
+            android:gravity="center"
+            android:padding="60dp"
+            android:text="刷屏神器"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/et_keycode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView_top"
+            android:layout_marginTop="60dp"
+            android:hint="请简单输入刷屏信息" />
+
+        <Button
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btn_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_keycode"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_select"
+            android:gravity="center"
+            android:text="开始刷屏"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/textview_shap"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/btn_chat"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="软件介绍"
+                android:textColor="#f41363"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/HotTheme"
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/textView2"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="1、功能：通过发送大量文字消息使对方手机卡顿以达到刷屏的效果\n\n2、使用：您只需要简单输入几个文字！点击开始刷屏按钮,然后对话框选择发送到QQ即可！下面的事情就交给我好了。\n\n3、作者：本软件由小枫制作。QQ:924114103" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/img_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:src="@mipmap/ic_arrow_back_white_36dp" />
+</RelativeLayout>

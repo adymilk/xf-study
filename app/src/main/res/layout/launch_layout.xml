@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:src="@mipmap/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp" />
+
+    <TextView
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/icon"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:text="Hello World!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#999"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design By 小枫工作室 2016"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp" />
+
+
+</RelativeLayout>

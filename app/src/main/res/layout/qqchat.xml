@@ -1,0 +1,112 @@
+
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@+id/RelativeLayout"
+    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@color/HotTheme"
+            android:padding="60dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="强制聊天"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_top"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+        <EditText
+            android:digits="1234567890"
+            android:hint="请输入QQ号码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_keycode"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/textView_top"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_select"
+            android:gravity="center"
+            android:text="强制聊天"
+            android:textColor="#fff"
+            android:id="@+id/btn_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_keycode"
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@drawable/textview_shap"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#f41363"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="软件介绍"
+                android:id="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/btn_chat" />
+
+            <TextView
+                android:textColor="@color/HotTheme"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1、功能：无视QQ好友关系,强制开启聊天模式\n\n2、使用：输入QQ号码.点击'强制聊天'按钮即可.如遇消息发送失败，请先赞他的名片然后再回到自己的名片，点击我赞过的人进入聊天即可成功！\n\n3、作者：小枫制作,盗版必究。QQ:924114103"
+                android:id="@+id/textView3"
+                android:layout_alignTop="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/img_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:src="@mipmap/ic_arrow_back_white_36dp" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lzy.headerviewpager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.lzy.headerviewpager.MainActivity" />
+        <activity android:name="com.lzy.headerviewpager.ParallaxHeaderActivity" />
+        <activity android:name="com.lzy.headerviewpager.PagerHeaderActivity" />
+        <activity android:name="com.lzy.headerviewpager.Music_Activity" />
+        <activity
+            android:name="com.lzy.headerviewpager.Java_Activity"
+            android:label="Java"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.lzy.headerviewpager.HTML_Activity" android:label="Html" />
+        <activity android:name="com.lzy.headerviewpager.PHP_Activity" android:label="PHP"/>
+        <activity android:name="com.lzy.headerviewpager.C_Activity"  />
+
+        <activity android:name="com.lzy.headerviewpager.launch_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.lzy.headerviewpager.LightActivity" />
+        <activity android:name="qianghongbao.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <service
+            android:name="qianghongbao.QiangHongBaoService"
+            android:enabled="true"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/qianghongbao_service_config" />
+        </service>
+
+        <activity android:name="com.lzy.headerviewpager.QQchat" />
+        <activity android:name="com.lzy.headerviewpager.qqshuaping" />
+        <activity
+            android:name="com.lzy.headerviewpager.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name="com.lzy.headerviewpager.webview_CSDN" android:label="小枫的CSDN博客" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <!--<meta-data-->
+            <!--android:name="com.google.android.gms.version"-->
+            <!--android:value="@integer/google_play_services_version" />-->
+
+        <activity android:name="com.lzy.headerviewpager.webview1"></activity>
+        <activity android:name="com.lzy.headerviewpager.webview2"></activity>
+        <activity android:name="com.lzy.headerviewpager.webview_download" android:label="源码下载"></activity>
+        <activity android:name="com.lzy.headerviewpager.webview_updata" android:label="获取更新"></activity>
+        <activity android:name="com.lzy.headerviewpager.webview_video"></activity>
+        <activity android:name="com.lzy.headerviewpager.webview_music"></activity>
+        <activity android:name=".webview_shequ" android:label="社区"></activity>
+        <activity android:name="com.lzy.headerviewpager.webview_more"></activity>
+    </application>
+
+</manifest>
